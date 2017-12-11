@@ -3,25 +3,24 @@ package entity;
 import java.util.Date;
 
 public class Developer {
-    private String fio;
-    private String achiveTaskDate;
+    private String Fname;
+    private Date achiveTaskDate;
     private Date passTaskDate;
+    private String fname;
 
-    public Developer(){
+    public void setFname(String fname) {
+        this.fname = fname;
         passTaskDate = new Date();
     }
 
-    public void setFio(String fio) {
-        this.fio = fio;
-    }
+    public void setAchiveTaskDate(Date date) {
 
-    public void setAchiveTaskDate(String achiveTaskDate) {
-        this.achiveTaskDate = achiveTaskDate;
+        this.achiveTaskDate = date;
     }
 
     @Override
     public String toString() {
-        return "FIO of developer " + fio + '\n' +
+        return  "First name of developer: " + fname + '\n' +
                 " Task was received at " + achiveTaskDate + '\n' +
                 " Task was passed at " + passTaskDate;
     }

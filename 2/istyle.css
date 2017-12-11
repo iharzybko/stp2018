@@ -1,0 +1,24 @@
+a sup {
+		margin-left: -8px;
+		}
+
+.s4{
+	font-size: 20;
+	font-style: italic;
+	color: black;
+}
+
+.s5{
+	margin-left: -4px;
+}
+
+.s6{
+	height: 6px;
+	padding-bottom: 3px;
+	padding-top: -5px;
+}
+
+.s7{
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
